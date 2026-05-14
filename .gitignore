@@ -1,0 +1,29 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Credenciais reais
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Captchas e screenshots temporários
+captcha*.png
+print_*.png
+erro_*.png
+cnd_municipal_*.png
+fgts_*.png
+
+# Downloads temporários
+CND - Trabalhista/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
