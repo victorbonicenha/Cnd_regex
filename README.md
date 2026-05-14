@@ -71,21 +71,27 @@ pip install -r requirements.txt
 
 Crie um arquivo .env na raiz do projeto e adicione suas credenciais:
 ```bash
-# CNPJs e CPF
-CNPJ_BASE=00000000
-CNPJ_BASICO=000000
-CNPJ_SC=00000000000000
-CPF=00000000000
-
-# AntiCaptcha
-CHAVE_API=CHAVE_AQUI
-
 # Telegram
-ITOKEN=SEU_TOKEN_TELEGRAM
-CHAT_ID=SEU_CHAT_ID
+ITOKEN=
+CHAT_ID=
 
-# Caminhos
-BASE_PATH=C:\Users\seuusuario\Desktop\Certidoes
+# Banco de dados
+DB_HOST=
+DB_NAME=
+DB_USER=
+DB_PASS=
+
+# CNPJ / CPF
+CNPJ_BASE=
+CNPJ_BASICO=
+CNPJ_SC=
+CPF=
+
+# Anti-Captcha
+CHAVE_API=
+
+# Paths
+BASE_PATH=
 ```
 
 ---
